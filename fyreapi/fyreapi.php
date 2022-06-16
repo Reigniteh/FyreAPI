@@ -10,4 +10,18 @@
 *
 **/
 
+class FyreMC {
+
+    const BASE = "https://fyremc.hu";
+    const ACCOUNT = "https://account.fyremc.hu";
+
+}
+
+class Endpoint {
+
+    const PLAYER_API = FyreMC::ACCOUNT."/api/player/";
+    const GUILD_API = FyreMC::ACCOUNT."/api/guild/";
+
+}
+
 ?>
